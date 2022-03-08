@@ -2,26 +2,32 @@
 DSys Project 2022
 
 
-#Introducción
+# Introducción
 ...
 
 
-#Objetivos
+
+# Objetivos
 ...
 
 
-#Metodología
+
+# Metodología
 ...
 
 
-#Pasos de Ejecución y requisitos
+
+# Pasos de Ejecución y requisitos
 ...
 
 
-#Resultados
+
+# Resultados
 ...
 
 
-#Conclusiones
+
+# Conclusiones
 ...
+
 
