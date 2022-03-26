@@ -5,9 +5,9 @@ Final Project for the Dynamic Systems 2022-1 class, imparted by Dr. Victor de la
 
 > Project Manager : Alexis Hassiel Nuviedo Arriaga ([@nuviedo](https://github.com/nuviedo))
 > 
-> Lead Developer : Miriam Guadalupe Valdéz ([@nuviedo](https://github.com/mirluvams))
+> Lead Developer : Miriam Guadalupe Valdéz ([@mirluvams](https://github.com/mirluvams))
 > 
-> Head of Public Relations : Sofía García de la Rosa ([@nuviedo](https://github.com/SofiaDeLaRosa))
+> Head of Public Relations : Sofía García de la Rosa ([@SofiaDeLaRosa](https://github.com/SofiaDeLaRosa))
 
 
 # Introduction
