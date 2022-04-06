@@ -20,7 +20,7 @@ The need for such a project stems from a simple hypothesis: given that the popul
 The expected output of this project is a set of graphs which predict, in the broadest terms, how the population with either of the aforementioned conditions can plausibly evolve, once iterated enough.
 Said graphs are to be obtained through the use of concise graphing APIs, showcasing both the model being presented and the calculated precision by using an appropriate correlation coefficient between the estimated and known data, such that we can compare our approaches with eachother. It should be noted that the amount of data we can gather is considerably small, so it is expected we will not have real data to compare against that is not already present in the initial conditions.
 
-#Toolset
+# Toolset
 The project is expected to be developed making use of several python 3.10+ libraries, such as the following:
 
 * NumPy: "The fundamental package for scientific computing with Python"
