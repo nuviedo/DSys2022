@@ -25,11 +25,10 @@ Said graphs are to be obtained through the use of concise graphing APIs, showcas
 # Toolset
 The project is expected to be developed making use of several python 3.10+ libraries, such as the following:
 
-* NumPy: "The fundamental package for scientific computing with Python"
-* pandas: "An open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language"
-* seaborn: "A Python data visualization library based on matplotlib, which provides a high-level interface for drawing attractive and informative statistical graphics."
-* scipy: "Fundamental algorithms for scientific computing in Python"}
-* scikit-learn: "Simple and efficient tools for predictive data analysis built on NumPy, SciPy, and matplotlib" 
+* NumPy: "The fundamental package for scientific computing with Python", used as a base for the following libraries, alongside being a powerful tool for efficient array-like data structure handling and basic mathematical functions.
+* pandas: "An open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language", used the most to handle CSV-like archives that represent data tables for statistical purposes.
+* seaborn: "A Python data visualization library based on matplotlib, which provides a high-level interface for drawing attractive and informative statistical graphics.", mainly useful as a graphing library that abstracts away the complexities of matplotlib, so we may focus on what matters most.
+* scipy: "Fundamental algorithms for scientific computing in Python", an invaluable tool to abstract some of the least trivial algorithms required for the project, as reinventing the wheel is pointless.
 
 # Methodology
 ...
