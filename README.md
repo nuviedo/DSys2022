@@ -1,7 +1,7 @@
 # Affiliation
 ![fondo-web2-10A-ENES](https://user-images.githubusercontent.com/100146672/160222385-4576c60e-1005-4753-b34d-c5461658c11b.png)
 
-Final Project for the Dynamic Systems 2022-1 class, taught by Dr. Victor de la Luz at the _Universidad Nacional Autónoma de México_ (National Autonomous University of México | UNAM), in its _Escuela Nacional de Estudios Superiores Unidad Morelia_ Campus (National School of Superior-Level Studies, _Morelia_ Campus | ENES Morelia), as part of its _Licenciatura en Tecnologías para la Información en Ciencias_ career plan (Bs. in Information Technologies applied to Science | L.T.I.C.).
+Final Project for the Dynamic Systems 2022-2 class, taught by Dr. Victor de la Luz at the _Universidad Nacional Autónoma de México_ (National Autonomous University of México | UNAM), in its _Escuela Nacional de Estudios Superiores Unidad Morelia_ Campus (National School of Superior-Level Studies, _Morelia_ Campus | ENES Morelia), as part of its _Licenciatura en Tecnologías para la Información en Ciencias_ career plan (Bs. in Information Technologies applied to Science | L.T.I.C.).
 
 > Project Manager : Alexis Hassiel Nuviedo Arriaga ([@nuviedo](https://github.com/nuviedo))
 > 
