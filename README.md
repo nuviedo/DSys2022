@@ -49,3 +49,8 @@ The project is expected to be developed making use of several python 3.10+ libra
 ...
 
 
+
+# References
+Pública, I. N., & Salud, S. d. (2021). Encuesta Nacional de Salud y Nutrición 2020 sobre Covid-2019. México.
+[https://ensanut.insp.mx/encuestas/ensanutcontinua2020/doctos/informes/ensanutCovid19ResultadosNacionales.pdf]
+
