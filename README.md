@@ -31,26 +31,57 @@ The project is expected to be developed making use of several python 3.10+ libra
 * scipy: [https://scipy.org/]
 
 # Methodology
-...
+We hypothesize the population with obesity & overweight follow a simple population growth scenario described by the dynamic system following the equation
 
+dP/dt = (1-P(t)/K)\*rP(t)
 
+Where t is the time since a base point, r is a relative growth coefficient, and K is the capacity of the population.
+Due to it being a separable differential equation, it can be solved to result in the following expression for P(t)
+
+P(t)=K / (1 + ((K-P(0))/P(0))\*e\*\*(-rt))
+
+Once separated, the dynamic system can be fitted accordingly with our data, as obtained in the data source described above. This was achieved by making use of scipy's implementation of Levenberg-Marquard minimization.
 
 # Usage Instructions & Requirements
-...
-
+Execute [WEIGHTSM.py](WEIGHTSM.py) in a system with the following packages:
+* [numpy](https://numpy.org/)
+* [matplotlib](https://matplotlib.org/)
+* [scipy](https://scipy.org/)
 
 
 # Results
-...
+Using L-M minimization, it was found that the equation fits best given the following parameters:
+
+For overweight: 
+r=0.10457, K=25105894.30522
+
+For obesity: 
+r=0.10763, K=28892092.21548
+
+For overweight & obesity: 
+r=0.08692, K=56037606.60947
+
+Given our objective, we predict that by 2026, the population with overweight, yet not obesity, will increase to 24,453,241, from the 23,910,745 recorded in 2020. 
+
+Likewise, we predict the amount of people presenting obesity will increase from 2020's 23,267,462 to 25,642,393 by 2026.
+
+Therefore, the amount of people with either of such disorders will increase to a total of 50471689, from 2020's 47258452. 
+
+It is notable that out models seem to converge into attractor points by the year 2050.
+
+![](weightpopulation.png)
 
 
 
 # Conclusions
-...
+Firstly, we conclude that more research is necessary as to whether the model is accurate, for which we need more data, for which we need to wait for more official data sets.
 
+Assuming that the model is accurate, it would imply that, if the amount of people in the country eventually stabilizes into a given value, so would the population that presents either obesity or overweight under the current conditions.
 
 
 # References
 Pública, I. N., & Salud, S. d. (2021). Encuesta Nacional de Salud y Nutrición 2020 sobre Covid-2019. México.
 [https://ensanut.insp.mx/encuestas/ensanutcontinua2020/doctos/informes/ensanutCovid19ResultadosNacionales.pdf]
+
+Stewart, James; Clegg, Daniel (2012). Brief Applied Calculus. Brooks/Cole Cengage Learning.
 
