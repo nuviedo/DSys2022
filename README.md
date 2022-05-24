@@ -33,12 +33,12 @@ The project is expected to be developed making use of several python 3.10+ libra
 # Methodology
 We hypothesize the population with obesity & overweight follow a simple population growth scenario described by the dynamic system following the equation
 
-dP/dt = (1-P(t)/K)\*rP(t)
+![](deq.png)
 
 Where t is the time since a base point, r is a relative growth coefficient, and K is the capacity of the population.
 Due to it being a separable differential equation, it can be solved to result in the following expression for P(t)
 
-P(t)=K / (1 + ((K-P(0))/P(0))\*e\*\*(-rt))
+![](eq.png)
 
 Once separated, the dynamic system can be fitted accordingly with our data, as obtained in the data source described above. This was achieved by making use of scipy's implementation of Levenberg-Marquard minimization.
 
