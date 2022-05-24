@@ -65,7 +65,7 @@ Given our objective, we predict that by 2026, the population with overweight, ye
 
 Likewise, we predict the amount of people presenting obesity will increase from 2020's 23,267,462 to 25,642,393 by 2026.
 
-Therefore, the amount of people with either of such disorders will increase to a total of 50471689, from 2020's 47258452. 
+Therefore, the amount of people with either of such disorders will increase to a total of 50,471,689, from 2020's 47,258,452. 
 
 It is notable that out models seem to converge into attractor points by the year 2050.
 
