@@ -61,6 +61,12 @@ r=0.10763, K=28892092.21548
 For overweight & obesity: 
 r=0.08692, K=56037606.60947
 
+![](weightpopulation.png)
+
+
+
+# Conclusions
+
 Given our objective, we predict that by 2026, the population with overweight, yet not obesity, will increase to 24,453,241, from the 23,910,745 recorded in 2020. 
 
 Likewise, we predict the amount of people presenting obesity will increase from 2020's 23,267,462 to 25,642,393 by 2026.
@@ -69,12 +75,7 @@ Therefore, the amount of people with either of such disorders will increase to a
 
 It is notable that out models seem to converge into attractor points by the year 2050.
 
-![](weightpopulation.png)
-
-
-
-# Conclusions
-Firstly, we conclude that more research is necessary as to whether the model is accurate, for which we need more data, for which we need to wait for more official data sets.
+Lastly, we conclude that more research is necessary as to whether the model is accurate, for which we need more data, for which we need to wait for more official data sets.
 
 Assuming that the model is accurate, it would imply that, if the amount of people in the country eventually stabilizes into a given value, so would the population that presents either obesity or overweight under the current conditions.
 
