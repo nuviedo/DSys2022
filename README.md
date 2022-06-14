@@ -19,11 +19,11 @@ According to the WHO, overweight and obesity are defined as abnormal or excessiv
 The need for such a project stems from a simple hypothesis: given that the population that presents some kind of overweight or obesity is in and of itself a population, it is not too far a stretch to assume said population may follow a classical linear/exponential growth scenario. It is important to mention that gathering an accurate method of prediction for population under such conditions could help the relevant authorities improve their current health plans, comparing their expected results to our predicted models.
 
 
-# General Objective
-The expected output of this project is a set of graphs which predict, in the broadest terms, how the population with either of the aforementioned conditions can plausibly evolve, once iterated enough.
+# Objectives
+The aim of this project is compute a set of graphs which predict, in the broadest terms, how the population with either of the aforementioned conditions can plausibly evolve, once iterated enough.
 Said graphs are to be obtained through the use of concise graphing APIs, showcasing both the model being presented and the calculated precision by using an appropriate correlation coefficient between the estimated and known data, such that we can compare our approaches with eachother. It should be noted that the amount of data we can gather is considerably small, so it is expected we will not have real data to compare against that is not already present in the initial conditions.
 
-# Toolset
+# Libraries
 The project is expected to be developed making use of several python 3.10+ libraries, such as the following:
 
 * NumPy: [https://numpy.org/] 
@@ -51,7 +51,7 @@ Execute [WEIGHTSM.py](WEIGHTSM.py) in a system with the following packages:
 
 
 # Results
-Using L-M minimization, it was found that the equation fits best given the following parameters:
+Using L-M minimization, we found the following parameters:
 
 For overweight: 
 r=0.10457, K=25105894.30522
