@@ -1,5 +1,5 @@
 # Prediction of obesity and overweight in Mexico
-## Affiliation
+### Affiliation
 ![fondo-web2-10A-ENES](https://user-images.githubusercontent.com/100146672/160222385-4576c60e-1005-4753-b34d-c5461658c11b.png)
 
 Final Project for the Dynamic Systems 2022-2 class, taught by Dr. Victor de la Luz at the _Universidad Nacional Autónoma de México_ (National Autonomous University of México | UNAM), in its _Escuela Nacional de Estudios Superiores Unidad Morelia_ Campus (National School of Superior-Level Studies, _Morelia_ Campus | ENES Morelia), as part of its _Licenciatura en Tecnologías para la Información en Ciencias_ career plan (Bs. in Information Technologies applied to Science | L.T.I.C.).
@@ -12,7 +12,7 @@ Final Project for the Dynamic Systems 2022-2 class, taught by Dr. Victor de la L
 
 The contents of this repository are licensed under the GNU General Public License version 3. Visit https://www.gnu.org/licenses/gpl-3.0.html for more information.
 
-# Introduction
+### Introduction
 The following project documents the practical application of several methods of dynamic systems to obtain and represent an accurate prediction of the population with either overweight or obesity found in México, through the analysis of results from the [_Instituto Nacional de Salud Pública_](https://insp.mx/) (National Public Health Institute | INSP) by making use of their various census reports through the _ENSANUT_ Project to obtain the initial conditions required for said systems, through the usage of regression & extrapolation in several capacities be it linear polynomial or exponential, all the while making use of modern data science libraries.
 
 According to the WHO, overweight and obesity are defined as abnormal or excessive fat accumulation that presents a risk to health. A body mass index (BMI) over 25 is considered overweight, and over 30 is obese. This is a known prevalent issue in several countries, as it was not long ago that México held the world's first place at the obesity ranking for the underage population.
@@ -20,11 +20,11 @@ According to the WHO, overweight and obesity are defined as abnormal or excessiv
 The need for such a project stems from a simple hypothesis: given that the population that presents some kind of overweight or obesity is in and of itself a population, it is not too far a stretch to assume said population may follow a classical linear/exponential growth scenario. It is important to mention that gathering an accurate method of prediction for population under such conditions could help the relevant authorities improve their current health plans, comparing their expected results to our predicted models.
 
 
-# Objective
+### Objective
 The aim of this project is compute a set of graphs which predict, in the broadest terms, how the population with either of the aforementioned conditions can plausibly evolve, once iterated enough.
 Said graphs are to be obtained through the use of concise graphing APIs, showcasing both the model being presented and the calculated precision by using an appropriate correlation coefficient between the model and the observations to compare our approaches with eachother.
 
-# Libraries
+### Libraries
 The project is expected to be developed making use of several python 3.10+ libraries, such as the following:
 
 * [NumPy](https://numpy.org/)
@@ -32,7 +32,7 @@ The project is expected to be developed making use of several python 3.10+ libra
 * [seaborn](http://seaborn.pydata.org/)
 * [scipy](https://scipy.org/)
 
-# Methodology
+### Methodology
 The first approximation assume that the population with obesity and overweight follow a simple population growth scenario described by the dynamic system following the equation:
 
 ![](deq.png)
@@ -52,12 +52,12 @@ Once separated, the dynamic system can be fitted accordingly with our data, as o
 >
 > P(0): 
 
-# Run
+### Run
 Execute [WEIGHTSM.py](WEIGHTSM.py) using a Linux terminal with the packages mentioned above. 
 > Use the command Python 3 ....
 
 
-# Results
+### Results
 Using L-M minimization, we found the following parameters:
 
 For overweight (OW): 
@@ -72,7 +72,7 @@ r = 0.08692, K = 56037606.60947
 ![](weightpopulation.png)
 
 
-# Conclusions
+### Conclusions
 
 Given our objective, we predict that by 2026, the population with overweight, yet not obesity, will increase to 24,453,241, from the 23,910,745 recorded in 2020. 
 
@@ -87,7 +87,7 @@ Lastly, we conclude that more research is necessary as to whether the model is a
 Assuming that the model is accurate, it would imply that, if the amount of people in the country eventually stabilizes into a given value, so would the population that presents either obesity or overweight under the current conditions.
 
 
-# References
+### References
 Pública, I. N., & Salud, S. d. (2021). Encuesta Nacional de Salud y Nutrición 2020 sobre Covid-2019. México.
 [https://ensanut.insp.mx/encuestas/ensanutcontinua2020/doctos/informes/ensanutCovid19ResultadosNacionales.pdf]
 
