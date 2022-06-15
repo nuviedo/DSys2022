@@ -40,8 +40,11 @@ The first approximation assume that the population with obesity and overweight f
 Due to it being a separable differential equation, it can be solved to result in the following expression for P(t). Where:
 
 > r: relative growth coefficient
+> 
 > K: capacity of the population
+> 
 > t: time since a base point
+> 
 > p(t): growth function
 >
 The growth rate depends on a growth coefficient multiplied by the response capacity of the population.
