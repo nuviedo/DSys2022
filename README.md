@@ -10,6 +10,7 @@ Final Project for the Dynamic Systems 2022-2 class, taught by Dr. Victor de la L
 > 
 > Sofía García de la Rosa ([@SofiaDeLaRosa](https://github.com/SofiaDeLaRosa))
 
+The contents of this repository are licensed under the GNU General Public License version 3. Visit https://www.gnu.org/licenses/gpl-3.0.html for more information.
 
 # Introduction
 The following project documents the practical application of several methods of dynamic systems to obtain and represent an accurate prediction of the population with either overweight or obesity found in México, through the analysis of results from the [_Instituto Nacional de Salud Pública_](https://insp.mx/) (National Public Health Institute | INSP) by making use of their various census reports through the _ENSANUT_ Project to obtain the initial conditions required for said systems, through the usage of regression & extrapolation in several capacities be it linear polynomial or exponential, all the while making use of modern data science libraries.
@@ -19,25 +20,28 @@ According to the WHO, overweight and obesity are defined as abnormal or excessiv
 The need for such a project stems from a simple hypothesis: given that the population that presents some kind of overweight or obesity is in and of itself a population, it is not too far a stretch to assume said population may follow a classical linear/exponential growth scenario. It is important to mention that gathering an accurate method of prediction for population under such conditions could help the relevant authorities improve their current health plans, comparing their expected results to our predicted models.
 
 
-# Objectives
+# Objective
 The aim of this project is compute a set of graphs which predict, in the broadest terms, how the population with either of the aforementioned conditions can plausibly evolve, once iterated enough.
-Said graphs are to be obtained through the use of concise graphing APIs, showcasing both the model being presented and the calculated precision by using an appropriate correlation coefficient between the estimated and known data, such that we can compare our approaches with eachother. It should be noted that the amount of data we can gather is considerably small, so it is expected we will not have real data to compare against that is not already present in the initial conditions.
+Said graphs are to be obtained through the use of concise graphing APIs, showcasing both the model being presented and the calculated precision by using an appropriate correlation coefficient between the model and the observations to compare our approaches with eachother.
 
 # Libraries
 The project is expected to be developed making use of several python 3.10+ libraries, such as the following:
 
-* NumPy: [https://numpy.org/] 
-* pandas: [https://pandas.pydata.org/]
-* seaborn: [http://seaborn.pydata.org/]
-* scipy: [https://scipy.org/]
+* [NumPy](https://numpy.org/)
+* [pandas](https://pandas.pydata.org/)
+* [seaborn](http://seaborn.pydata.org/)
+* [scipy](https://scipy.org/)
 
 # Methodology
-We hypothesize the population with obesity & overweight follow a simple population growth scenario described by the dynamic system following the equation
+The first approximation assume that the population with obesity and overweight follow a simple population growth scenario described by the dynamic system following the equation:
 
 ![](deq.png)
 
-Where t is the time since a base point, r is a relative growth coefficient, and K is the capacity of the population.
-Due to it being a separable differential equation, it can be solved to result in the following expression for P(t)
+Due to it being a separable differential equation, it can be solved to result in the following expression for P(t). Where:
+
+> r: relative growth coefficient
+> K: capacity of the population
+> t: time since a base point
 
 ![](eq.png)
 
