@@ -42,32 +42,34 @@ Due to it being a separable differential equation, it can be solved to result in
 > r: relative growth coefficient
 > K: capacity of the population
 > t: time since a base point
+> p(t): growth function
+>
+The growth rate depends on a growth coefficient multiplied by the response capacity of the population.
 
 ![](eq.png)
 
-Once separated, the dynamic system can be fitted accordingly with our data, as obtained in the data source described above. This was achieved by making use of scipy's implementation of Levenberg-Marquard minimization.
+Once separated, the dynamic system can be fitted accordingly with our data, as obtained in the data source described above. This was achieved by making use of scipy's implementation of Levenberg-Marquard minimization. Where:
+>
+> P(0): 
 
-# Usage Instructions & Requirements
-Execute [WEIGHTSM.py](WEIGHTSM.py) in a system with the following packages:
-* [numpy](https://numpy.org/)
-* [matplotlib](https://matplotlib.org/)
-* [scipy](https://scipy.org/)
+# Run
+Execute [WEIGHTSM.py](WEIGHTSM.py) using a Linux terminal with the packages mentioned above. 
+> Use the command Python 3 ....
 
 
 # Results
 Using L-M minimization, we found the following parameters:
 
-For overweight: 
-r=0.10457, K=25105894.30522
+For overweight (OW): 
+r = 0.10457, K = 25105894.30522
 
-For obesity: 
-r=0.10763, K=28892092.21548
+For obesity (OB): 
+r = 0.10763, K = 28892092.21548
 
-For overweight & obesity: 
-r=0.08692, K=56037606.60947
+For overweight and obesity: 
+r = 0.08692, K = 56037606.60947
 
 ![](weightpopulation.png)
-
 
 
 # Conclusions
